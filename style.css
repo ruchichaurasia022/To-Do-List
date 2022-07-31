@@ -1,0 +1,33 @@
+body {
+    background-image: linear-gradient(to right, rgb(191, 137, 238) , rgb(223, 179, 214));
+    padding-top: 40px;
+  }
+  .starter-template {
+    padding: 40px 15px;
+    text-align: center;
+  }
+  .content-area {
+    margin: 30px;
+  }
+  .input-area {
+    margin: 25px;
+  }
+  .task-text {
+    display: flex;
+    align-items: center;
+    height: 40px;
+  }
+  .hidden {
+    display: none;
+  }
+  .delete-icon-area {
+    display: flex;
+    align-items: center;
+    height: 40px;
+  }
+  .delete-icon {
+    color: red;
+  }
+  .complete {
+    text-decoration: line-through;
+  }
